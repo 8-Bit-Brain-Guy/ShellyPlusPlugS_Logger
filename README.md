@@ -8,7 +8,9 @@ As I had a Shelly Plus Plug S, a Login at HiveMQ and a Server at home that can l
 
 
 
-## Thing that are handeled in this Tool:
+## Thing that are handeled in this Project:
 - Installing all needed Python components to be able to run the script.
 - Creating a cost free login at HiveMQ a public available MQTT Broker. 
-- Setting envico
+- Setting environment variables for the MQTT Brokers Login Information so that this is not needed to be hardcoded in the script.
+- The Script that fetches the MQTT messages, evaluates them and saves the relevant information into a csv file.
+- A Libre Office file that shows the content of the csv file.
