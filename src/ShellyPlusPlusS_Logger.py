@@ -18,9 +18,8 @@ MQTT_USER = os.environ['MQTT_USER']
 MQTT_PASSWORD = os.environ['MQTT_PASSWORD']
 MQTT_TOPIC = 'shellyplusplugs/events/rpc'
 
+print("MQTT_SERVER: " %MQTT_SERVER)
+print("MQTT_USER:   " %MQTT_USER)
 
-print(MQTT_SERVER)
-print(MQTT_USER)
-print(MQTT_PASSWORD)
 
 
